@@ -1,0 +1,40 @@
+:root {
+    --box-width: 100px;
+    --box-height: 100px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box {
+    width: var(--box-width);
+    height: var(--box-height);
+    margin: 10px;
+    padding: 20px;
+    background-color: #3498db;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+}
+
+.controls {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.controls label {
+    margin-right: 10px;
+}
+
+.controls input {
+    width: 70px;
+}
